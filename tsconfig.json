@@ -9,7 +9,8 @@
       "@features/*": ["app/features/*"],
       "@widgets/*": ["app/widgets/*"],
       "@pages/*": ["app/pages/*"],
-      "@shared/*": ["app/shared/*"]
+      "@shared/*": ["app/shared/*"],
+      "@environments/*": ["environments/*"]
     },
     "baseUrl": "./src",
     "outDir": "./dist/out-tsc",
