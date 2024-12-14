@@ -3,6 +3,15 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "@data/*": ["app/data/*"],
+      "@commands/*": ["app/commands/*"],
+      "@features/*": ["app/features/*"],
+      "@widgets/*": ["app/widgets/*"],
+      "@pages/*": ["app/pages/*"],
+      "@shared/*": ["app/shared/*"]
+    },
+    "baseUrl": "./src",
     "outDir": "./dist/out-tsc",
     "strict": true,
     "noImplicitOverride": true,
